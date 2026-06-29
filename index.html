@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Data Engineer - Tel Aviv Hub</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f3f4f6; color: #1f2937; margin: 0; padding: 20px; }
+        .container { max-width: 700px; background: white; margin: 40px auto; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .badge { background: #dbeafe; color: #1e40af; padding: 6px 12px; border-radius: 9999px; font-size: 14px; font-weight: 600; display: inline-block; }
+        h1 { font-size: 28px; margin-top: 15px; color: #111827; }
+        .meta { color: #6b7280; font-size: 14px; margin-bottom: 30px; border-bottom: 1px solid #e5e7eb; padding-bottom: 20px; }
+        h2 { font-size: 20px; color: #111827; margin-top: 30px; }
+        ul { padding-left: 20px; line-height: 1.6; }
+        li { margin-bottom: 10px; }
+        .highlight { font-weight: bold; color: #059669; }
+        .btn { display: block; width: 100%; background: #2563eb; color: white; text-align: center; padding: 15px; border-radius: 8px; font-weight: bold; text-decoration: none; margin-top: 40px; font-size: 18px; transition: background 0.2s; }
+        .btn:hover { background: #1d4ed8; }
+        .secret { display: none; text-align: center; margin-top: 40px; padding-top: 30px; border-top: 2px dashed #059669; }
+        .secret h2 { color: #059669; font-size: 32px; margin-bottom: 10px; }
+        .secret p { font-size: 18px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <span class="badge">Stealth Startup</span>
+    <h1>Senior Data & Diaper Engineer</h1>
+    <div class="meta">📍 Tel Aviv Hub (Hybrid / Remote) • 💼 Full-Time • 💰 Highly Competitive Equity</div>
+
+    <h2>About the Role</h2>
+    <p>We are a fast-growing, highly dynamic family startup looking for a talented, motivated, and loving <strong>Senior Data & Diaper Engineer (Auntie)</strong> to join our core infrastructure. As we scale our production from 2 to 3 core members, you will manage our most critical pipeline deployment yet.</p>
+
+    <h2>Key Responsibilities</h2>
+    <ul>
+        <li><strong>Data Pipeline Management:</strong> Monitor daily inputs (milk/baby food) and efficiently log the resulting stream of outputs (diaper tracking). High tolerance for pipeline leakage required.</li>
+        <li><strong>Real-time Monitoring:</strong> Maintain 100% alert responsiveness on audio streaming infrastructure (baby monitor). Night shifts are fully automated by local DevOps (Mom & Dad).</li>
+        <li><strong>Event Architecture:</strong> Ensure high availability and zero latency for critical cluster milestones (birthday parties, Hanukkah/Christmas, first steps).</li>
+        <li><strong>Governance Overrides:</strong> Develop creative strategies to bypass strict parental firewalls in order to deliver high volumes of toys, candies, and hugs directly to the end-user.</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <ul>
+        <li>Strong background in making funny faces and whispering high-pitched baby talk.</li>
+        <li>Proven stack experience: Holding a baby in one hand, a cup of coffee in the other.</li>
+        <li>Based in <strong>Tel Aviv</strong>, with a ready-to-deploy status for high-priority family visits.</li>
+        <li>Ability to analyze a highly distorted ultrasound image and accurately query: <em>"Oh wow, does it have my eyes?"</em></li>
+    </ul>
+
+    <!-- Le bouton déclencheur -->
+    <a href="#" class="btn" id="applyBtn">Apply Now</a>
+
+    <!-- La section secrète qui apparaît au clic -->
+    <div class="secret" id="secretSection">
+        <h2>SURPRISE ! 🎉</h2>
+        <p>Tu peux poser ton CV... Le poste est déjà à toi !</p>
+        <p style="font-size: 24px; font-weight: bold; color: #111827;">🍼 TU VAS ÊTRE TATA ! 🍼</p>
+        <p style="color: #6b7280; font-size: 14px;">Deployment scheduled for 2026/2027 ❤️</p>
+    </div>
+</div>
+
+<script>
+    document.getElementById('applyBtn').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('secretSection').style.display = 'block';
+        this.style.display = 'none';
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    });
+</script>
+
+</body>
+</html>
